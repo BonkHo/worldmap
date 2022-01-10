@@ -2,9 +2,13 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
-.marks .feature {
+.marks .land {
 	fill: #42a5b3;
-	stroke: #fff;
+}
+
+.marks .interiors {
+	fill: none;
+	stroke: #ececec;
 }
 
 .marks .sphere {
