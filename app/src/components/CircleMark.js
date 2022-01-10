@@ -7,8 +7,9 @@ const path = geoPath(projection);
 const CircleMark = ({ data }) => {
 	return (
 		<g className="marks">
+			<path className="sphere" d={path({ type: "Sphere" })}></path>
 			{data.features.map((feature) => (
-				<path d={path(feature)} />
+				<path className="feature" d={path(feature)} />
 			))}
 		</g>
 	);
