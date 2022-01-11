@@ -3,7 +3,7 @@ body {
 }
 
 .marks .land {
-	fill: #42a5b3;
+	fill: #29cf55;
 }
 
 .marks .interiors {
@@ -11,6 +11,11 @@ body {
 	stroke: #ececec;
 }
 
+.marks .graticule {
+	fill: none;
+	stroke: #fff;
+}
+
 .marks .sphere {
-	fill: #edede6;
+	fill: #7abfff;
 }
